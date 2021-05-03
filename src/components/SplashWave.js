@@ -1,9 +1,9 @@
 import React from "react";
-// import Image from "next/image";
-// import Link from "next/link";
+import { Link } from "react-router-dom";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LoginModal from "../components/LoginModal";
 import SearchBar from "../components/SearchBar";
+import wave from "../assets/greenwave.png";
 
 const SplashWave = () => {
   return (
@@ -21,12 +21,12 @@ const SplashWave = () => {
           <SearchBar />
           <p className={"mt-2"}>Type an area or a food you're looking for.</p>
           <div className="home-buttons">
-            <Link href="/browse">
+            <Link to="/browse">
               <button
                 type={"button"}
                 className={"btn btn-dark m-2 gray home-button"}
               >
-                Browse
+                Our Finds
               </button>
             </Link>
             <button
@@ -40,14 +40,7 @@ const SplashWave = () => {
           </div>
         </div>
       </div>
-      {/* <Image
-        className={"wave"}
-        alt="Green wave"
-        src="/greenwave.png"
-        width="4320"
-        height="468"
-        priority={true}
-      /> */}
+      <img className={"wave"} alt="Green wave" src={wave}></img>
       <LoginModal />
     </>
   );

@@ -1,0 +1,68 @@
+const seedFinds = [
+  {
+    name: "Jerky",
+    veg: "Vegetarian",
+    tag: "Snacks",
+    location: "Gangnam",
+    finderID: "admin2",
+    date: "2019-05-29T02:22:54.3742",
+  },
+  {
+    name: "Jerky",
+    veg: "Vegetarian",
+    tag: "Snacks",
+    location: "Gangnam",
+    finderID: "admin2",
+    date: "2019-05-29T02:22:54.3742",
+  },
+  {
+    name: "Jerky",
+    veg: "Vegetarian",
+    tag: "Snacks",
+    location: "Gangnam",
+    finderID: "admin2",
+    date: "2019-05-29T02:22:54.3742",
+  },
+  {
+    name: "Jerky",
+    veg: "Vegetarian",
+    tag: "Snacks",
+    location: "Gangnam",
+    finderID: "admin2",
+    date: "2019-05-29T02:22:54.3742",
+  },
+  {
+    name: "Jerky",
+    veg: "Vegetarian",
+    tag: "Snacks",
+    location: "Gangnam",
+    finderID: "admin2",
+    date: "2019-05-29T02:22:54.3742",
+  },
+  {
+    name: "Jerky",
+    veg: "Vegetarian",
+    tag: "Snacks",
+    location: "Gangnam",
+    finderID: "admin2",
+    date: "2019-05-29T02:22:54.3742",
+  },
+  {
+    name: "Jerky",
+    veg: "Vegetarian",
+    tag: "Snacks",
+    location: "Gangnam",
+    finderID: "admin2",
+    date: "2019-05-29T02:22:54.3742",
+  },
+  {
+    name: "Jerky",
+    veg: "Vegetarian",
+    tag: "Snacks",
+    location: "Gangnam",
+    finderID: "admin2",
+    date: "2019-05-29T02:22:54.3742",
+  },
+];
+
+export default seedFinds;

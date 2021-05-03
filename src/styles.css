@@ -1,21 +1,21 @@
 @font-face {
   font-family: "Gilmer-Regular";
-  src: url("/fonts/Gilmer/Gilmer-Regular.otf");
+  src: url("./assets/fonts/Gilmer/Gilmer-Regular.otf");
 }
 
 @font-face {
   font-family: "Gilmer-Outline";
-  src: url("/fonts/Gilmer/Gilmer-Outline.otf");
+  src: url("./assets/fonts/Gilmer/Gilmer-Outline.otf");
 }
 
 @font-face {
   font-family: "Gilmer-Heavy";
-  src: url("/fonts/Gilmer/Gilmer-Heavy.otf");
+  src: url("./assets/fonts/Gilmer/Gilmer-Heavy.otf");
 }
 
 @font-face {
   font-family: "Gilmer-Light";
-  src: url("/fonts/Gilmer/Gilmer-Light.otf");
+  src: url("./assets/fonts/Gilmer/Gilmer-Light.otf");
 }
 
 html {
@@ -200,13 +200,12 @@ a {
   font-family: "Gilmer-Light";
   font-size: 1rem;
   padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .find-price {
-  line-height: 0;
-  font-weight: bold;
-  font-size: 1rem;
-  padding: 0.75rem;
+  color: black !important;
+  font-family: "Gilmer-Light" !important;
 }
 
 .find-location {

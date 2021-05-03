@@ -1,22 +1,22 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HomePage from "../pages/HomePage";
-
-// import Home from "../pages/HomePage";
-// import YourMood from "../pages/YourMood";
-// import YourMoodDemo from "../pages/YourMoodDemo";
-// import About from "../pages/About";
-// import NotFound from "../pages/NotFound";
-// import SpotifyRedirect from "../pages/SpotifyRedirect";
-// import SongError from "../pages/SongError";
+import BrowsePage from "../pages/BrowsePage";
+import ContactPage from "../pages/ContactPage";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 class AppRouter extends React.Component {
   render() {
     return (
       <BrowserRouter>
+        <Navbar />
         <Switch>
-          <HomePage />
+          <Route path="/" component={HomePage} exact={true} />
+          <Route path="/browse" component={BrowsePage} />
+          <Route path="/contact" component={ContactPage} />
         </Switch>
+        <Footer />
       </BrowserRouter>
     );
   }
